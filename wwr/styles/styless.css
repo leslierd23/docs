@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital@1&display=swap');
+
+body div {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #f1faee
+
+}
+
+ img, img, img, img { 
+    max-width:1600px
+
+}
+ nav a:hover{
+    text-align: center;
+    background-color:#a8dadc
+ }
+ nav a{
+    padding: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: black
+    
+     
+
+ }
+#hero-msg h1, #here-msg h4 {
+    text-align : center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+
+main section img{
+    box-sizing:border-box;
+}
+#background {
+    height: 725px;
+    background-color:#f1faee
+
+}
+header{
+    background-color:#a8dadc; ;
+}
+
+.book, .join{
+    border-radius: 5px;
+    padding:15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 50px;
+    background-color: #a8dadc
+    
+
+    
+    
+    
+
+}
+.book:hover, .join:hover{
+    background-color:#457b9d
+
+}
+
+.msg p{
+    padding-bottom:15px;
+    font-size: .8em;
+    background-color:aliceblue
+    
+}
+.msg{
+    padding: 35px;
+    background-color:white ;
+    line-height: 1.5em;
+}
+footer a{
+    text-decoration: none;
+    background-color: #a8dadc
+}
+
+.logo{
+    width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+
+#hero-img{
+   width:100% 
+}
+
+footer p{
+    font-size: 1.2em;
+
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+.home-tittle{
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin:0;
+    padding: 0;
+}
+
+h2{
+    margin:0;
+}
+
+icon{
+    padding-top: 10px;
+}
+
+footer{
+    padding: 25px 50px;
+    margin-top:200px;
+}
+
+footer .social img{
+    padding-top:15px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+margin:200px 0;
+}
+
+.card-img{
+    border: 10px solid #457b9d;
+}
+
+

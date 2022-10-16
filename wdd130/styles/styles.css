@@ -1,0 +1,52 @@
+img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+} 
+
+main p {
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(254,139,225);  
+  color: white;
+}
+
+a {
+  font-size: 1.5em;
+}
+
+body {
+  text-align: center; 
+  background-color: rgb(254,139,225);
+}
+
+nav {
+  background-color: rgb(254, 139, 225);
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: rgb(254, 139, 225);
+  margin: 40px;
+}
+
+h1 {
+  color: rgb(255, 254, 254); 
+  text-align: center;
+}
+img {
+  width: 200px;
+  
+}
+footer p  {
+   width: 200px;
+  font-size: 20px;
+  margin: 20px auto;
+}
+footer {
+  background-color: rgb(240, 146, 212);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
