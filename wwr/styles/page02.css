@@ -1,0 +1,97 @@
+.logo{
+    width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self:  center;
+}
+body div {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #c2c9c0
+}
+nav a:hover{
+    text-align: center;
+    background-color:#a8dadc
+ }
+ nav a{
+    padding: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: black
+ }
+ #hero-msg h1, #here-msg h4 {
+    text-align : center;
+}
+main section {
+    text-align: center;
+}
+
+main section img{
+    box-sizing:border-box;
+}
+#background {
+    height: 725px;
+    background-color:#bfc7bd
+}
+nav{
+    display:flex;
+    justify-content:  space-around;
+}
+
+#para1 {
+    justify-content: space-around;
+    padding: 10;
+
+
+}
+footer p{
+    font-size: 1.2em;
+
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+.home-tittle{
+    font-size: 2em;
+    margin:20px 30px 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top:200px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+footer .social img{
+    padding-top:15px;
+}
+#hero-img{
+    width:100% 
+ }
+
+ main .para1{
+    
+    padding: 20px; 
+    border-radius: 5px solid gray;
+    margin:30px;
+
+}
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin:0;
+    padding: 0;
+}
+#hero img{
+    max-width: 1300px;
+    padding: 20px;
+    margin: 30px auto;
+    
+}
