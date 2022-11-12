@@ -1,0 +1,33 @@
+body{
+    background-color:black ;
+}
+
+.h1{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:white
+}
+
+#home.grid{
+    display:grid
+
+
+}
+
+head img{
+    border-radius: 0ch;
+   
+     
+}
+
+footer {
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top:200px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.p{
+    background-color: white;
+}
