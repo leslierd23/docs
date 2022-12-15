@@ -59,10 +59,12 @@ nav{
   display:flex;
   justify-content:  space-around;
 }
+
 #hero-img{
-  width: 100%;
-  height: 50%;
-  align-items: center;
+  width: 79%;
+  height: 20%;
+  margin: 50px 40px 10px 100px;
+  
 }
 
 body{
@@ -72,14 +74,23 @@ body{
   padding: 0;
 }
 .home-tittle{
-  font-size: 40px;
+  font-size: 70px;
   margin:20px 30px 20px 30px;
   text-align: center;
+  font-family: Playfair;
 }
 
-.p{
-  text-align: center;
-  margin: 20px;
+
+.hero-msg {
+  margin:40px;
+
+}
+.hero-msg p{
+  margin:30px;
+  font-family: Manrope;
+  font-size: 8em;
+
+  
  
 }
 main{
@@ -97,22 +108,23 @@ main{
 }
 
 .ingredients{
-width: 50%;
+width: 30%;
 height: 50px;
 
 }
 .cake-decoration{
-  width: 50%;
-  margin: 0 auto;
+  width: 30%;
+  margin:10px;
 }
 .recipes{
-  width: 50%;
+  width: 30%;
   grid-column: 3/4;
+  margin: 10px;   
 
 }
 
 .first-picture{
-  width: 50%;
+  width: 30%;
   grid-template: 1 / 1 / 3/ 2;
   font-size: 22px;
   background-color: white;
@@ -124,7 +136,7 @@ height: 50px;
 
 }
 .second-picture{
-  width: 50%;
+  width: 30%;
   font-size: 22px;
   grid-column:2/3;
   grid-row:1;
@@ -135,7 +147,7 @@ height: 50px;
 
 }
 .third-picture{
-  width: 50%;
+  width: 30%;
   font-size: 22px;
   grid-column:3/4;
   grid-row:1;
@@ -144,6 +156,15 @@ height: 50px;
   border:10px;
   padding:5px
 }
+
+
+
+#sweet-grid {
+  display:grid;
+  grid-template-columns: 50%;
+}
+
+
 
 footer {
   background-color: #ffc9b9;
@@ -165,6 +186,9 @@ footer p{
 footer p a:hover{
   text-decoration: underline;
 }
+
+
+
 
 /*Ingredients page*/
 .logo_link{
@@ -198,11 +222,8 @@ nav{
   display:flex;
   justify-content:  space-around;
 }
-#hero-img{
-  width: 100%;
-  height: 50%;
-  align-items: center;
-}
+
+
 
 body{
   background-color: #fefee3;
@@ -211,44 +232,67 @@ body{
   padding: 0;
 }
 .home-tittle{
-  font-size: 40px;
+  font-size: 60px;
   margin:20px 30px 20px 30px;
   text-align: center;
 }
-
-.p{
-  text-align: center;
-  margin: 20px;
- 
-}
 main{
- display: grid;
+  display:grid;
+  display:contents;
 }
 
 .grid{
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  display:block;
 }
 
-#sweet-grid {
-  display:grid;
-  grid-template-columns: 50%;
+.ingre-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
 }
 
-.ingredients{
-width: 50%;
-height: 50px;
 
-}
-.cake-decoration{
+
+.ingre-1-img{
   width: 50%;
-  margin: 0 auto;
+  grid-column: 1/2;
+  grid-row:1/2;
+  margin:40px 90px;
+  padding: 3%;
 }
-.recipes{
-  width: 50%;
-  grid-column: 3/4;
+
+.ingre-2-img{
+  width: 70%;
+  grid-column: 2/3;
+  grid-row:2/3;
+  margin: 70px 70px;
+  padding: 3%;
 
 }
+
+.h2{
+  margin: 20px 5px;
+}
+
+.para1{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding:3%;
+  margin:20px;
+  text-align: justify;
+
+ 
+}
+
+.para2{
+  grid-column:1/2;
+  grid-row: 2/3;
+  padding: 3%;
+  text-align: justify;
+}
+
 
 
 
@@ -306,10 +350,64 @@ nav{
   display:flex;
   justify-content:  space-around;
 }
-#hero-img{
-  width: 100%;
-  height: 50%;
-  align-items: center;
+
+.deco-1-img{
+  width: 80%;
+  height: 90%;
+  margin:15px;
+
+}
+
+.deco-2-img{
+  width: 80%;
+  height: 80%;
+  margin:15px;
+}
+
+.deco-3-img{
+  width: 80%;
+  height: 80%;
+  margin:15px;
+}
+
+.decoration-1{
+  width: 50%;
+  grid-column:2/3;
+  grid-row: 1/2;
+
+}
+
+.p1{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 3%;
+  text-align:justify;
+  
+}
+.decoration-2{
+    grid-column:2/3;
+    grid-row:2/3;
+}
+
+.p2{
+  grid-column:1/2;
+  grid-row: 2/3;
+  padding:3%;
+  text-align:justify;
+ 
+}
+
+.decoration-3{
+  grid-column:2/3;
+  grid-row:3/4;
+}
+
+.p3{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  padding:3%;
+  text-align:justify;
+
 }
 
 body{
@@ -318,47 +416,25 @@ body{
   margin:0;
   padding: 0;
 }
-.home-tittle{
-  font-size: 40px;
+.deco-tittle{
+  font-size: 70px;
   margin:20px 30px 20px 30px;
-  text-align: center;
+  padding: 8%;
 }
 
-.p{
-  text-align: center;
-  margin: 20px;
- 
-}
-main{
+main.deco-grid{
  display: grid;
 }
 
 .grid{
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-#sweet-grid {
+#deco-grid {
   display:grid;
   grid-template-columns: 50%;
 }
-
-.ingredients{
-width: 50%;
-height: 50px;
-
-}
-.cake-decoration{
-  width: 50%;
-  margin: 0 auto;
-}
-.recipes{
-  width: 50%;
-  grid-column: 3/4;
-
-}
-
-
 
 footer {
   background-color: #ffc9b9;
@@ -380,3 +456,5 @@ footer p{
 footer p a:hover{
   text-decoration: underline;
 }
+
+
